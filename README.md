@@ -67,6 +67,9 @@ python run_streamlit.py
 # 브라우저에서 http://localhost:8501 접속
 ```
 
+![image](https://github.com/user-attachments/assets/6458cde7-f889-41a9-8234-63e624643a46)
+
+
 ---
 
 ## 데이터 관리
@@ -94,6 +97,9 @@ python run_streamlit.py
 3. 저장 버튼 클릭 시 자동으로 JSON 파일에 반영
 
 ---
+
+![image](https://github.com/user-attachments/assets/7e251022-542b-4fb3-936e-da7694273130)
+
 
 ## API 사용
 
