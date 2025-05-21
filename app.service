@@ -1,0 +1,14 @@
+[Unit]
+Description=FAQ Chatbot Service
+After=network.target
+
+[Service]
+Type=simple
+User=SYSTEM
+WorkingDirectory=C:\path\to\your\app
+Environment=PYTHONPATH=C:\path\to\your\app
+ExecStart=C:\path\to\your\app\venv\Scripts\python.exe C:\path\to\your\app\run.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target 
